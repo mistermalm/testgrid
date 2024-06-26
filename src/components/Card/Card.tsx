@@ -4,7 +4,6 @@ import "./Card.scss";
 
 const Card = () => {
   return (
-    <div className="card-container">
       <TdsCard
         image-placement="above-header"
         header="Card"
@@ -14,8 +13,7 @@ const Card = () => {
           className="tds-u-w-100"
           slot="body-image"
           alt="Scania graphical lettering sign"
-          src={CardImg}
-          width={"100%"}
+          src={CardImg}     
         />
         <div slot="actions">
           <p className="tds-text-grey-958">
@@ -23,8 +21,7 @@ const Card = () => {
             above-header below.
           </p>
         </div>
-      </TdsCard>
-    </div>
+      </TdsCard>  
   );
 };
 
