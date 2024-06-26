@@ -12,10 +12,8 @@ const Grid = () => {
     <>
       <div className="tds-grid-container">
         <div className="tds-grid-fluid">
-          {items.map((_, idx) => (
-            <div className="tds-grid-item" id={`tds-grid-item-${idx}`}>
-              <GridItem key={idx} />
-            </div>
+          {items.map((_, idx) => (           
+              <GridItem key={idx} />           
           ))}
         </div>
       </div>
